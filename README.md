@@ -6,9 +6,7 @@ I wrote this script to monitor my connection to a remote system in the backgroun
 I hope this helps you like it helped me.
 
 ### Monitor based on ICMP
-
-python ./tunnelcheck.py 172.16.100.200
+`python ./tunnelcheck.py 172.16.100.200`
 
 ### Monitor based on open tcp port 139
-
-python ./tunnelcheck.py 172.16.100.200 139
+`python ./tunnelcheck.py 172.16.100.200 139`
